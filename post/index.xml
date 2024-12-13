@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Rayaan Juvale</title>
+    <link>https://rayaanjuvale.github.io/Rayaan_portfolio/post/</link>
+    <description>Recent content in Projects on Rayaan Juvale</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 09 Dec 2024 10:58:08 -0400</lastBuildDate>
+    <atom:link href="https://rayaanjuvale.github.io/Rayaan_portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reddit Data Pipeline and Analysis</title>
+      <link>https://rayaanjuvale.github.io/Rayaan_portfolio/post/chapter-1/</link>
+      <pubDate>Mon, 09 Dec 2024 10:58:08 -0400</pubDate>
+      <guid>https://rayaanjuvale.github.io/Rayaan_portfolio/post/chapter-1/</guid>
+      <description>&lt;p&gt;This project implements a &lt;strong&gt;Reddit data pipeline&lt;/strong&gt; for collecting, storing, and analyzing posts from the top 20 US-based subreddits. It includes the following components:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Extraction (ETL Service)&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Uses the Reddit API via the &lt;code&gt;praw&lt;/code&gt; library to fetch hot posts from subreddits.&lt;/li&gt;&#xA;&lt;li&gt;Stores the data in a PostgreSQL database (&lt;code&gt;reddit_posts&lt;/code&gt; table).&lt;/li&gt;&#xA;&lt;li&gt;Analyzes the data to identify trending topics and stores the results in the &lt;code&gt;trending_topics&lt;/code&gt; table.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Database (PostgreSQL)&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Stores raw Reddit posts and processed trending topics.&lt;/li&gt;&#xA;&lt;li&gt;Automatically initializes tables using an &lt;code&gt;init.sql&lt;/code&gt; script during container startup.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Frontend (Streamlit)&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

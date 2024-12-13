@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Portfolio on Rayaan Juvale</title>
+    <link>https://rayaanjuvale.github.io/Rayaan_portfolio/</link>
+    <description>Recent content in My Portfolio on Rayaan Juvale</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 09 Dec 2024 10:58:08 -0400</lastBuildDate>
+    <atom:link href="https://rayaanjuvale.github.io/Rayaan_portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reddit Data Pipeline and Analysis</title>
+      <link>https://rayaanjuvale.github.io/Rayaan_portfolio/post/chapter-1/</link>
+      <pubDate>Mon, 09 Dec 2024 10:58:08 -0400</pubDate>
+      <guid>https://rayaanjuvale.github.io/Rayaan_portfolio/post/chapter-1/</guid>
+      <description>&lt;p&gt;This project implements a &lt;strong&gt;Reddit data pipeline&lt;/strong&gt; for collecting, storing, and analyzing posts from the top 20 US-based subreddits. It includes the following components:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Extraction (ETL Service)&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Uses the Reddit API via the &lt;code&gt;praw&lt;/code&gt; library to fetch hot posts from subreddits.&lt;/li&gt;&#xA;&lt;li&gt;Stores the data in a PostgreSQL database (&lt;code&gt;reddit_posts&lt;/code&gt; table).&lt;/li&gt;&#xA;&lt;li&gt;Analyzes the data to identify trending topics and stores the results in the &lt;code&gt;trending_topics&lt;/code&gt; table.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Database (PostgreSQL)&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Stores raw Reddit posts and processed trending topics.&lt;/li&gt;&#xA;&lt;li&gt;Automatically initializes tables using an &lt;code&gt;init.sql&lt;/code&gt; script during container startup.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Frontend (Streamlit)&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://rayaanjuvale.github.io/Rayaan_portfolio/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rayaanjuvale.github.io/Rayaan_portfolio/about/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://rayaanjuvale.github.io/Rayaan_portfolio/images/Rayaan_Juvale.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;I am Rayaan Juvale, a passionate and driven individual with a background in engineering and data analytics. I thrive on solving complex problems, blending technical expertise with creativity to develop innovative solutions. My experiences range from designing automated systems to optimizing processes through data-driven insights.&lt;/p&gt;&#xA;&lt;p&gt;Beyond academics and work, I have a deep love for English football and proudly support my favorite team, Chelsea. Football teaches me teamwork, resilience, and the importance of strategy values I carry into every aspect of my life.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://rayaanjuvale.github.io/Rayaan_portfolio/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rayaanjuvale.github.io/Rayaan_portfolio/contact/</guid>
+      <description>&lt;p&gt;Reach out to me on these social media platforms.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Platform&lt;/th&gt;&#xA;          &lt;th&gt;URL&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;LinkedIn:&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://www.linkedin.com/in/rayaanjuvale/&#34;&gt;https://www.linkedin.com/in/rayaanjuvale/&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Email:&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;mailto:rayaanjuvale@gmail.com&#34;&gt;rayaanjuvale@gmail.com&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;GitHub:&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://github.com/RayaanJuvale&#34;&gt;https://github.com/RayaanJuvale&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>
